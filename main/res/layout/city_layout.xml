@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/cityname"
+        android:padding="10dp"
+        android:gravity="left|center"
+        android:background="#f4ecec"
+        android:layout_weight="0.72" />
+
+    <TextView
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/temp"
+        android:padding="10dp"
+        android:background="#f4ecec"
+        android:gravity="center|right"
+        android:textAlignment="gravity"
+        android:layout_weight="0.30" />
+</LinearLayout>

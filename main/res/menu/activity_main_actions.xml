@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Add_City"
+        android:title="Add City"
+        app:showAsAction="never"/>
+    <!--android:icon="@drawable/ic_action_new"-->
+
+    <item android:id="@+id/Clear_City"
+        android:title="Clear Saved City"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/View_Note"
+        android:title="View Note"
+        app:showAsAction="never"/>
+
+</menu>
